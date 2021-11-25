@@ -1,0 +1,87 @@
+/* 
+body color #575561 
+a:hover and active hue hsl(192, 82%, 70%)
+headline 
+
+*/
+
+
+html {
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #575561;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+a {
+    color: hsl(280, 4%, 26%);
+}
+
+h1,
+h2,
+h3 {
+    color: rgba(70, 68, 73, 0.856);
+ 
+
+}
+
+.page-section {
+    background-color: rgba(231, 231, 231, 0.952); 
+}
+
+.tech-list {
+    display: none;
+}
+
+.ul-bkgd {
+    background-color: rgba(210, 231, 150, 0.952); 
+    padding: 53px 0;
+}
+
+.large-hero {
+    display: grid;
+    grid-template-columns: 1fr;
+  
+}
+
+.large-hero__image {
+    grid-column: 1;
+    grid-row: 1;
+    img {
+        display: block;
+        z-index: 1;
+    }
+}
+
+.large-hero__text-content {
+    align-self: center;
+    grid-column: 1;
+    grid-row: 1;
+    padding: 60px 0;
+    
+    text-align: center; 
+ }
+
+ .large-hero__title {
+    font-weight: 300;
+    color: $mainBlue;
+    font-size: 2.3rem;
+    margin: 0;
+
+   @mixin atSmall {
+       font-size: 3.2rem;
+   }
+
+}
